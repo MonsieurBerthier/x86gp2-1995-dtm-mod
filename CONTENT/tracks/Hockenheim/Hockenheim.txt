@@ -1,0 +1,217 @@
+
+     ·························································
+     ·                                                       ·
+     ·    HOCKENHEIM  98   F O R   G R A N D   P R I X   2   ·
+     ·                                                       ·
+     ·························································
+
+
+                   _____________________________________
+
+If you are using Notepad from windows, choose word wrap under edit for better viewing!
+
+
+  THE FILE
+   ··········
+
+ Track Name ........ : Hockenheim 98(Germany)
+ Editor used ....... : track editor 1.6.4, 1.6.6.,1.7.2
+ Release Date ...... : 11-23-1998
+ Version Number .... : 4.0
+ Description ....... : Formula 1 track updated to resemble the GP of Germany from this year,
+                       with updated camera settings to reproduce the ones
+                       taken by FIA in the internatinal broadcasting plus the new 98 layout.
+ Files included .... :  600.jam, Hocspect.jam, pit_tar,
+		       hock98.txt, 
+	               t_monles.jam, t_monsp1.jam, t_monsp2.jam, 
+		       t_monsp3.jam.  
+                       
+  WHAT'S NEW
+   ............
+
+ · I thought this would be a small update but I was wrong :-)
+ -98 realistic camera settings (even more realistic now)
+ -textures
+ -placement of some textures at the right places again
+ -new objects again
+ -pit lane textures updated
+ -Starting grid texture updated
+ -Delete your jam file callled 2tarmac2 in the hoc98 folder !!!
+ 
+  PERSONAL
+   ··········
+
+ Author ............ : Daniel Forte Ramos
+ Author info ....... : Brazilian, 21. College student in the US (psychology)
+ E-Mail-Address .... : danielll@unm.edu
+ ICQ ............... : 
+ Homepage .......... : 
+ Other works ....... : 98 cockpit based on James Ariz's Ferrari 98/hockheneim 1.0,2.0,3.0 and Monza 98
+ Thanks to ......... :
+                       · Forever Grateful to Paul Hoad for the track editor( and Carshape editor)
+                       · Sjon Stigter/Pieter van Dieren for creating the best GP2 homepage 
+                         and for maintaining it for nearly two years
+                       . James Ariz for his contributions to Gp2( carshape & cockpits)
+                       . Peter L. Kessler ( another great master in track editing)
+                       . PK Arnall/Pat painter/Jose Kaplan for their carsets
+                       . Robin Day for amazing sounds for Gp2
+                       . Steven Young for Gp2 edit 1.81
+                       . Whoever spend his/her time working for the Gp2 community directly/indirectly
+                        
+ Special Thanks to ...:
+                       . Rui Pinto( without him I would never make any graphics for Gp2) 
+                       . Martin Gosmann  
+                       . Tri Wasono 
+                       . Everybody that has a webpage about Gp2
+                       . Everybody that e-mailed me concerning the first release 
+                       . Obi Offiah for testing my first version and starting editing the track to the new layout.
+                       · Andreas Bosch for fixing some problems in the first version
+ And my friends (didn't forget you guys :-)
+
+                       · Marc Aarts for some awesome graphics and some editing lessons+suggestions
+                       . Wroncliff Buckton for jams ideas and some editing lessons
+                       . Adalberto Zaparoli for his usual excellent help and for teaching me how to solve bugs :-) 
+                       . Sjon Stigter 
+                       . Michael "NRG" Hompus
+
+
+
+  TO people who sent me help: Thanks to all. 
+
+
+
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+ ###########  THIS TRACK WOULDN"T BE AVAILABLE TO YOU IF IT WOULDN"T BE FOR ADALBERTO ZAPAROLI####################
+ 
+
+
+
+
+
+
+  TRACK INFO
+   ············
+
+ Number of laps ..... : 45
+ Track Length ....... : 6.823 km
+ Distance ........... : 307.022 km
+ Fastest Lap ........ : 1:45:747, Gerhard Berger, Benneton B197 
+
+ Preferred Slot ..... : f1ct09.dat
+ Track based on ..... : Original hockenheim, Germany 94 from Micropose/version 2.0 of my Hock
+ Known bugs ......... : 
+ CC-Line* ........... : 1
+ Nearness to reality* : 1
+ CC behaviour* ...... : 1
+ CC setup* .......... : 1
+ Fuel consumption* .. : 1
+ Camera positions* .. : 1
+ Black flags* ....... : 3
+ Graphics* .......... : 1
+ Scenery* ........... : 1
+ % of edited objects  : 100%
+
+ * = 6=very bad, 1=excellent
+
+ Graphics.............:
+ trees made by Marc
+ Street light, speaker and pace car made by Wrongcliff
+ All others by me ( some based on Adalberto or Marc's work) Thanks!!!
+
+
+  Work Process
+   ..............
+
+ the first version of this track was finished 3 weeks after the german
+ Gp this year, and it contained a lot of new graphics in the original
+ Microprose track. After that, I stopped working at this track and
+ moved to another track, the Belgium one( which will be release).
+ Then, I recieved over 100 e-mails concerning the Hockenheim 
+ track I just made. To my surprise everybody liked the track and
+ Wrongcliff pointed out there was a "great" sign where my track
+ was loaded at Sjon's page. I felt very motivated to go 
+ back and improve the track a bit more with so much encouragement
+ from all of you. In the e-mails I recieved, not all were congratulating
+ me; others suggested updates for other things and mostly to the 98
+ layout. 
+ For the new layout, I thought it would too much work until Obi Offiah
+ came along to provide me with the beginning of what would be the 
+ new layout for this track. I picked up his changes(90% were from him) and from
+ others and started to edit the layout of the original Microprose
+ 94 track that I had put all the new graphics. 
+ That part was very hard. At the same time I was working with that, I 
+ was updating some textures for the version 1.0 of the track( to make 2.0)
+ and leave the new layout for later as it was harder to make it and
+ I was also working with Spa 98, and later on Monza 98.
+ at the end of September I finished the layout and for the first 10
+ days of october I worked with most possible realistic 98 camera positions
+ . But there was bugs to be fixed before the releasing the track
+ and I couldn't fix them. Once I sent the file to Adalberto Zaparoli!!!!!
+ he promptly , and amazingly 'killed" the bugs , and because of him you all can
+ have the final version so soon. I hope you all enjoy it.
+ -----I hope this is the final version. I keep going back to this track always
+maybe because it was the first one...now I added more graphical stuff and
+positioned some textures at the places where they are in real life hockenheim.
+
+  INSTALLATION
+   ··············
+
+ATTENTION: this is just an update , not a full file. YOU NEED
+VERSION 3.0 OF MY HOCKENHEIM TO USE THIS TRACK PROPERLY!!!!!!!!
+
+ First you need the GP2nocd patch for using any new tracks! It is 
+ available at almost every homepage. You just have to run it to make 
+ Gp2 read the tracks from the HD.
+ extract the track file to the circuits directory and rename it to F1ct??.dat (tested only 
+ in slot 09)
+
+ Extract ALL the jams coming with this zip file into
+ a the folder called HOC98. 
+
+ 
+ Be sure to back up your old track file that has
+ the same name as the new one you are adding on.
+  
+  AVAILABILITY
+   ..............
+ Sjon's Gp2 Homepage 
+
+ 
+     If you want to upload this entire file to your own web site, please
+contact the author and permission will happily be given to you.
+
+  CONSTRUCTION
+   ··············
+ Since German Gp !!!
+
+  
+  COPYRIGHT
+   ···········
+
+ These files are freeware. You may copy them as often as you want and
+ to everybody you like. If you use any of these files as a base for 
+ your own work, please send me a mail and I will be happy to give you
+ permission to use them.
+
+
+  DISCLAIMER
+   ············
+
+ The contained files are provided "as is" without warranty of any kind,
+ either expressed or implied. The author will not be held responsible for
+ any losses incurred.
+
+ ***********************************************************************
+ You must NOT include this file on any commercial disc or CD-Rom without 
+ the prior clear consent of the author!
+ ***********************************************************************
+                     This is NOT a Microprose product!
+
+
+···········································································
+
+(C) 1998 Daniel Ramos

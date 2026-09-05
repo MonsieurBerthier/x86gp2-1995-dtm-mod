@@ -1,0 +1,38 @@
+23.12.03                              version 1.0
+=======================================================================
+
+Title: Airfield Diepholz
+
+Author: Andreas Schulz
+
+Email Address: andreas_schulz2002@yahoo.com
+Homepage : www.grandprix2.de
+
+Description : short non-permanent circuit on a military airfield in Germany
+	   used for Touring Cars, Sportscars and Formula 3.
+
+Thanks to :Dieter C. Serowy
+======================================================================
+Base:   -  The Gp3 Diepholz by Dieter C. Serowy
+======================================================================
+
+* Installation *
+- STEP 1 (if you already have new tracks on the game jump to STEP 2): patch the game
+with gp2nocd that obliges the game to read the track files (the ones .dat) from the HD.
+This program will create a new directory called "circuits": you have to copy there ALL
+the 16 track files (F1ct01, F1ct02...........F1ct16).
+
+- STEP 2: copy the .dat file in the "circuits" directory and rename it as F1ct04
+  or as you want. 
+
+- STEP 3: Copy all the JAD files AND convert.EXE to the \gp2\gamejams\diepjam\ directory 
+  and run convert.EXE once in this directory to convert all the JADs to JAMs. 
+
+- STEP 4: ENJOY!
+
+* Copyright / Permissions *
+
+If you modify this track, (for Gp2 or Gp3) the names of ALL authors must be always present!!
+
+=======================================================================
+AAS 2003

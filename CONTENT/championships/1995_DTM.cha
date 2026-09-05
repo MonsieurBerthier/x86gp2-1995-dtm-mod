@@ -1,0 +1,39 @@
+name "1995 Deutsche Tourenwagen Meisterschaft (DTM)"
+year 1995
+
+// takes the directory name from the tracks folder or F1CT01, F1CT02, etc... if an original track and the grand prix's title
+// has to have 16 tracks
+TRACKS
+{
+	#01 "Hockenheim_short" "Hockenheim (Short) - Race 1"
+	#02 "Hockenheim_short" "Hockenheim (Short) - Race 2"
+	#03 "AVUS" "AVUS - Race 1"
+	#04 "AVUS" "AVUS - Race 2"
+	#05 "Norisring" "Norisring - Race 1"
+	#06 "Norisring" "Norisring - Race 2"
+	#07 "Diepholz" "Diepholz - Race 1"
+	#08 "Diepholz" "Diepholz - Race 2"
+	#09 "Nurburgring" "Nurburgring - Race 1"
+	#10 "Nurburgring" "Nurburgring - Race 2"
+	#11 "Wunstorf" "Wunstorf - Race 1"
+	#12 "Wunstorf" "Wunstorf - Race 2"
+	#13 "Erding" "Erding - Race 1"
+	#14 "Erding" "Erding - Race 2"
+	#15 "Hockenheim" "Hockenheim - Race 1"
+	#16 "Hockenheim" "Hockenheim - Race 2"
+}
+
+// it can go down to P26
+POINTS
+{
+	P_01 20
+	P_02 15
+	P_03 12
+	P_04 10
+	P_05 8
+	P_06 6
+	P_07 4
+	P_08 3
+	P_09 2
+	P_10 1
+}

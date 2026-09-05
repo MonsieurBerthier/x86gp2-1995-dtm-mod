@@ -1,0 +1,870 @@
+// TAD (teams and drivers) format
+// UNDER DEVELOPMENT! MORE OPTIONS TO COME!
+//
+// pit crew colour definitons:
+// BLACK, DARK_GREY, GREY, DARK_RED, FADED_RED, YELLOW, DARK_BEIGE, LIGHT_BLUE, MID_BLUE, DARK_BLUE, LIGHT_GREEN, MID_GREEN, DARK_GREEN
+//
+// not listed commands: 
+//		- team_weight_lbs (or _kg): used inside a TEAM tag { } (for further info, read the changelog)
+//		- baseline_weight_lbs (or _kg): used in the header (for further info, read the changelog)
+//		- DISABLE_DRIVER: place it as the final command in a driver tag { }
+
+name "1995 Deutsche Tourenwagen Meisterschaft (DTM)"
+author "Berthier"
+description "Relive the legendary 1995 DTM Championship with authentic cars, teams, liveries, and immersive racing action from the golden era of touring car racing."
+year 1995
+
+car_weight_lbs 1313   // or kg, GP2's native format is lbs, lbs is used here to keep the exact vanilla value, you can use kg but that will go through a conversion first
+pit_speed_limit_mph 50   // or kmh, GP2's native format is mph, mph is used here to keep the exact vanilla value, you can use kmh but that will go through a conversion first
+
+refuelling 0		// 0 = off (no refuelling is allowed during races in DTM, at least in 1995)
+
+carshape "1995_dtm.dat"   // if not default then a filename from the mod's carshapes folder
+engine_sound "1995_DTM" // a directory name from the enginesounds directory
+
+tyre_dry_type "slick"  // or grooved
+tyre_brand#0 "nobranding"   // "default" (yellow Goodyear), "nobranding" or a filename from content/tyrebrands/ without the extension, the extension and the format is assumed to be .png
+tyre_brand#1 "notused"   // "notused" or a filename for those pesky tyre war years
+tyre_jams "no_wheel.jam" "no_wheel.jam" "no_wheel.jam" "no_wheel.jam" // the external tyre sprites, if not default then filenames from the tyres folder, the order in this list is B1FTR.JAM B2FTR.JAM B1RTR.JAM B2RTR.JAM
+
+helmets "default"   // if not default (the original) then it's looking for it in the mod's helmets folder
+
+TEAM #1
+{
+	team_name "Rosberg"
+	engine_name "Opel Calibra"
+
+	carshape_var 0			// 0 = low nose, 1 = high nose with the original carshape
+	livery "rosberg.jam"   // if not from the default JAMs then a filename from your_mod/liveries/, IMPORTANT: NO custom livery can have the original filenames!
+	tyre_brand 0
+
+	team_color 15 19 83   // the colour that appears on the track overlay, colours that take 3 values are RGB colours
+
+	cockpit_color 187 179 7
+	mirror_color 187 179 7
+	frontwing_color 231 231 231
+
+	power_race 760
+	power_quali 760
+	fail_prob 6700
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_BLUE
+		waist					DARK_BLUE
+		thin_strip				YELLOW
+		left_chest_sign			YELLOW
+		right_chest				YELLOW
+		epaulettes_jack			YELLOW
+		right_upper_arm			GREY
+		right_forearm			GREY
+		left_upper_arm			GREY
+		left_forearm			GREY
+		hands					BLACK
+		head					BLACK
+		team_logo				DARK_RED
+	}
+
+	DRIVER #1
+	{
+		driver_number 1
+		driver_name "Klaus Ludwig"
+		driver_nationality "DEU"
+
+		driver_grip_race 15888
+		driver_grip_quali 15888
+		driver_random_grip_range 1434
+	}
+
+	DRIVER #2
+	{
+		driver_number 2
+		driver_name "Keke Rosberg"
+		driver_nationality "FIN"
+
+		driver_grip_race 15263
+		driver_grip_quali 15263
+		driver_random_grip_range 2059
+	}
+}
+
+TEAM #2
+{
+	team_name "Sonax"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "sonax.jam"
+	tyre_brand 0
+
+	team_color 131 127 99
+
+	cockpit_color 20 20 20
+	mirror_color 43 112 197
+	frontwing_color 43 43 43
+
+	power_race 780
+	power_quali 780
+	fail_prob 500
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		BLACK
+		waist					DARK_BEIGE
+		thin_strip				BLACK
+		left_chest_sign			BLACK
+		right_chest				BLACK
+		epaulettes_jack			DARK_BEIGE
+		right_upper_arm			BLACK
+		right_forearm			BLACK
+		left_upper_arm			BLACK
+		left_forearm			BLACK
+		hands					BLACK
+		head					DARK_BEIGE
+		team_logo				DARK_BEIGE
+	}
+
+	DRIVER #1
+	{
+		driver_number 3
+		driver_name "Jorg van Ommen"
+		driver_nationality "DEU"
+
+		driver_grip_race 15980
+		driver_grip_quali 15980
+		driver_random_grip_range 1342
+	}
+
+	DRIVER #2
+	{
+		driver_number 4
+		driver_name "Jan Magnussen"
+		driver_nationality "DNK"
+
+		driver_grip_race 15606
+		driver_grip_quali 15606
+		driver_random_grip_range 1716
+	}
+}
+
+TEAM #3
+{
+	team_name "Promarkt"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "promarkt.jam"
+	tyre_brand 0
+
+	team_color 255 215 7
+
+	cockpit_color 255 215 7
+	mirror_color 20 20 20
+	frontwing_color 255 215 7
+
+	power_race 760
+	power_quali 760
+	fail_prob 3500
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		YELLOW
+		waist					BLACK
+		thin_strip				YELLOW
+		left_chest_sign			YELLOW
+		right_chest				YELLOW
+		epaulettes_jack			YELLOW
+		right_upper_arm			BLACK
+		right_forearm			BLACK
+		left_upper_arm			BLACK
+		left_forearm			BLACK
+		hands					BLACK
+		head					BLACK
+		team_logo				BLACK
+	}
+
+	DRIVER #1
+	{
+		driver_number 5
+		driver_name "Alexander Grau"
+		driver_nationality "DEU"
+
+		driver_grip_race 15739
+		driver_grip_quali 15739
+		driver_random_grip_range 1583
+	}
+
+	DRIVER #2
+	{
+		driver_number 6
+		driver_name "Kurt Thiim"
+		driver_nationality "DNK"
+
+		driver_grip_race 15857
+		driver_grip_quali 15857
+		driver_random_grip_range 1465
+	}
+}
+
+TEAM #4
+{
+	team_name "Martini"
+	engine_name "Alfa 155 TI"
+
+	carshape_var 0
+	livery "martini.jam"
+	tyre_brand 0
+
+	team_color 255 255 255
+
+	cockpit_color 175 43 43
+	mirror_color 238 238 238
+	frontwing_color 238 238 238
+
+	power_race 760
+	power_quali 760
+	fail_prob 5800
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		GREY
+		waist					DARK_RED
+		thin_strip				GREY
+		left_chest_sign			GREY
+		right_chest				GREY
+		epaulettes_jack			MID_BLUE
+		right_upper_arm			GREY
+		right_forearm			GREY
+		left_upper_arm			GREY
+		left_forearm			GREY
+		hands					BLACK
+		head					BLACK
+		team_logo				DARK_RED
+	}
+
+	DRIVER #1
+	{
+		driver_number 7
+		driver_name "Alessandro Nannini"
+		driver_nationality "ITA"
+
+		driver_grip_race 15529
+		driver_grip_quali 15529
+		driver_random_grip_range 1793
+	}
+
+	DRIVER #2
+	{
+		driver_number 8
+		driver_name "Nicola Larini"
+		driver_nationality "ITA"
+
+		driver_grip_race 15765
+		driver_grip_quali 15765
+		driver_random_grip_range 1557
+	}
+}
+
+TEAM #5
+{
+	team_name "Joest"
+	engine_name "Opel Calibra"
+
+	carshape_var 0
+	livery "joest.jam"
+	tyre_brand 0
+
+	team_color 255 167 7
+
+	cockpit_color 255 227 0
+	mirror_color 20 20 20
+	frontwing_color 231 231 231
+
+	power_race 740
+	power_quali 740
+	fail_prob 5200
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		GREY
+		waist					YELLOW
+		thin_strip				BLACK
+		left_chest_sign			YELLOW
+		right_chest				YELLOW
+		epaulettes_jack			BLACK
+		right_upper_arm			YELLOW
+		right_forearm			YELLOW
+		left_upper_arm			YELLOW
+		left_forearm			YELLOW
+		hands					BLACK
+		head					BLACK
+		team_logo				BLACK
+	}
+
+	DRIVER #1
+	{
+		driver_number 9
+		driver_name "Manuel Reuter"
+		driver_nationality "DEU"
+
+		driver_grip_race 15478
+		driver_grip_quali 15478
+		driver_random_grip_range 1844
+	}
+
+	DRIVER #2
+	{
+		driver_number 10
+		driver_name "Yannick Dalmas"
+		driver_nationality "FRA"
+
+		driver_grip_race 15227
+		driver_grip_quali 15227
+		driver_random_grip_range 2095
+	}
+}
+
+TEAM #6
+{
+	team_name "Schubel"
+	engine_name "Alfa 155 TI"
+
+	carshape_var 0
+	livery "schubel.jam"
+	tyre_brand 0
+
+	team_color 199 0 0
+
+	cockpit_color 199 0 0
+	mirror_color 199 0 0
+	frontwing_color 199 0 0
+
+	power_race 720
+	power_quali 720
+	fail_prob 500
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_RED
+		waist					GREY
+		thin_strip				DARK_RED
+		left_chest_sign			DARK_RED
+		right_chest				DARK_RED
+		epaulettes_jack			DARK_RED
+		right_upper_arm			GREY
+		right_forearm			GREY
+		left_upper_arm			GREY
+		left_forearm			GREY
+		hands					BLACK
+		head					BLACK
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 11
+		driver_name "Christian Danner"
+		driver_nationality "DEU"
+
+		driver_grip_race 15591
+		driver_grip_quali 15591
+		driver_random_grip_range 1731
+	}
+
+	DRIVER #2
+	{
+		driver_number 12
+		driver_name "Michele Alboreto"
+		driver_nationality "ITA"
+
+		driver_grip_race 14838
+		driver_grip_quali 14838
+		driver_random_grip_range 2484
+	}
+}
+
+TEAM #7
+{
+	team_name "Alfa Corse 2"
+	engine_name "Alfa 155 TI"
+
+	carshape_var 0
+	livery "alfacorse2.jam"
+	tyre_brand 0
+
+	team_color 51 51 51
+
+	cockpit_color 20 20 20
+	mirror_color 20 20 20
+	frontwing_color 20 20 20
+
+	power_race 700
+	power_quali 700
+	fail_prob 8700
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		BLACK
+		waist					GREY
+		thin_strip				BLACK
+		left_chest_sign			BLACK
+		right_chest				BLACK
+		epaulettes_jack			GREY
+		right_upper_arm			BLACK
+		right_forearm			BLACK
+		left_upper_arm			BLACK
+		left_forearm			BLACK
+		hands					BLACK
+		head					BLACK
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 13
+		driver_name "Gianni Giudici"
+		driver_nationality "ITA"
+
+		driver_grip_race 14393
+		driver_grip_quali 14393
+		driver_random_grip_range 2929
+	}
+
+	DRIVER #2
+	{
+		driver_number 30
+		driver_name "Gabriele Tarquini"
+		driver_nationality "ITA"
+
+		driver_grip_race 14055
+		driver_grip_quali 14055
+		driver_random_grip_range 3476
+	}
+}
+
+TEAM #8
+{
+	team_name "D2 Privat"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "d2privat.jam"
+	tyre_brand 0
+
+	team_color 144 144 144
+
+	cockpit_color 175 175 175
+	mirror_color 221 255 20
+	frontwing_color 175 175 175
+
+	power_race 800
+	power_quali 800
+	fail_prob 3500
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_GREY
+		waist					DARK_GREY
+		thin_strip				DARK_GREY
+		left_chest_sign			DARK_GREY
+		right_chest				DARK_GREY
+		epaulettes_jack			DARK_RED
+		right_upper_arm			DARK_GREY
+		right_forearm			DARK_GREY
+		left_upper_arm			DARK_GREY
+		left_forearm			DARK_GREY
+		hands					BLACK
+		head					BLACK
+		team_logo				MID_BLUE
+	}
+
+	DRIVER #1
+	{
+		driver_number 14
+		driver_name "Bernd Schneider"
+		driver_nationality "DEU"
+
+		driver_grip_race 16384
+		driver_grip_quali 16384
+		driver_random_grip_range 1224
+	}
+
+	DRIVER #2
+	{
+		driver_number 15
+		driver_name "Dario Franchitti"
+		driver_nationality "GBR"
+
+		driver_grip_race 15770
+		driver_grip_quali 15770
+		driver_random_grip_range 1552
+	}
+}
+
+TEAM #9
+{
+	team_name "Daim"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "daim.jam"
+	tyre_brand 0
+
+	team_color 97 18 14
+
+	cockpit_color 199 0 0
+	mirror_color 20 20 20
+	frontwing_color 199 0 0
+
+	power_race 700
+	power_quali 700
+	fail_prob 5200
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_RED
+		waist					DARK_BEIGE
+		thin_strip				DARK_RED
+		left_chest_sign			DARK_BEIGE
+		right_chest				DARK_RED
+		epaulettes_jack			DARK_BEIGE
+		right_upper_arm			DARK_RED
+		right_forearm			DARK_RED
+		left_upper_arm			DARK_RED
+		left_forearm			DARK_RED
+		hands					BLACK
+		head					DARK_RED
+		team_logo				DARK_BEIGE
+	}
+
+	DRIVER #1
+	{
+		driver_number 16
+		driver_name "Louis Krages"
+		driver_nationality "DEU"
+
+		driver_grip_race 14767
+		driver_grip_quali 14767
+		driver_random_grip_range 2555
+	}
+
+	DRIVER #2
+	{
+		driver_number 17
+		driver_name "Ellen Lohr"
+		driver_nationality "DEU"
+
+		driver_grip_race 15279
+		driver_grip_quali 15279
+		driver_random_grip_range 2043
+	}
+}
+
+TEAM #10
+{
+	team_name "Euroteam"
+	engine_name "Alfa 155 TI"
+
+	carshape_var 0
+	livery "euroteam.jam"
+	tyre_brand 0
+
+	team_color 219 107 7
+
+	cockpit_color 219 107 7
+	mirror_color 219 107 7
+	frontwing_color 219 107 7
+
+	power_race 740
+	power_quali 740
+	fail_prob 6300
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		FADED_RED
+		waist					GREY
+		thin_strip				FADED_RED
+		left_chest_sign			FADED_RED
+		right_chest				FADED_RED
+		epaulettes_jack			GREY
+		right_upper_arm			FADED_RED
+		right_forearm			FADED_RED
+		left_upper_arm			FADED_RED
+		left_forearm			FADED_RED
+		hands					BLACK
+		head					BLACK
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 18
+		driver_name "Stefano Modena"
+		driver_nationality "ITA"
+
+		driver_grip_race 15381
+		driver_grip_quali 15381
+		driver_random_grip_range 1941
+	}
+
+	DRIVER #2
+	{
+		driver_number 19
+		driver_name "Michael Bartels"
+		driver_nationality "DEU"
+
+		driver_grip_race 15565
+		driver_grip_quali 15565
+		driver_random_grip_range 1757
+	}
+}
+
+TEAM #11
+{
+	team_name "Joest"
+	engine_name "Opel Calibra"
+
+	carshape_var 0
+	livery "joestcliff.jam"
+	tyre_brand 0
+
+	team_color 0 0 0
+
+	cockpit_color 20 20 20
+	mirror_color 20 20 20
+	frontwing_color 20 20 20
+
+	power_race 720
+	power_quali 720
+	fail_prob 3600
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		BLACK
+		waist					GREY
+		thin_strip				BLACK
+		left_chest_sign			BLACK
+		right_chest				BLACK
+		epaulettes_jack			GREY
+		right_upper_arm			BLACK
+		right_forearm			BLACK
+		left_upper_arm			BLACK
+		left_forearm			BLACK
+		hands					BLACK
+		head					BLACK
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 20
+		driver_name "J.J. Lehto"
+		driver_nationality "FIN"
+
+		driver_grip_race 15468
+		driver_grip_quali 15468
+		driver_random_grip_range 1854
+	}
+
+	DRIVER #2
+	{
+		driver_number 21
+		driver_name "Ni Amorim"
+		driver_nationality "PRT"
+
+		driver_grip_race 14869
+		driver_grip_quali 14869
+		driver_random_grip_range 2453
+	}
+}
+
+TEAM #12
+{
+	team_name "Persson"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "persson.jam"
+	tyre_brand 0
+
+	team_color 76 122 23
+
+	cockpit_color 19 39 147
+	mirror_color 76 122 23
+	frontwing_color 76 122 23
+
+	power_race 720
+	power_quali 720
+	fail_prob 5200
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		MID_GREEN
+		waist					DARK_BLUE
+		thin_strip				DARK_BLUE
+		left_chest_sign			DARK_BLUE
+		right_chest				DARK_BLUE
+		epaulettes_jack			GREY
+		right_upper_arm			DARK_BLUE
+		right_forearm			DARK_BLUE
+		left_upper_arm			DARK_BLUE
+		left_forearm			DARK_BLUE
+		hands					BLACK
+		head					BLACK
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 22
+		driver_name "Uwe Alzen"
+		driver_nationality "DEU"
+
+		driver_grip_race 15442
+		driver_grip_quali 15442
+		driver_random_grip_range 1880
+	}
+
+	DRIVER #2
+	{
+		driver_number 23
+		driver_name "Bernd Maylander"
+		driver_nationality "DEU"
+
+		driver_grip_race 15202
+		driver_grip_quali 15202
+		driver_random_grip_range 2120
+	}
+}
+
+TEAM #13
+{
+	team_name "Ruch"
+	engine_name "AMG C-Class"
+
+	carshape_var 0
+	livery "ruch.jam"
+	tyre_brand 0
+
+	team_color 54 83 230
+
+	cockpit_color 19 39 147
+	mirror_color 252 117 66
+	frontwing_color 19 39 147
+
+	power_race 670
+	power_quali 670
+	fail_prob 5400
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_BLUE
+		waist					DARK_BLUE
+		thin_strip				DARK_BLUE
+		left_chest_sign			DARK_BLUE
+		right_chest				DARK_BLUE
+		epaulettes_jack			YELLOW
+		right_upper_arm			DARK_BLUE
+		right_forearm			DARK_BLUE
+		left_upper_arm			DARK_BLUE
+		left_forearm			DARK_BLUE
+		hands					BLACK
+		head					BLACK
+		team_logo				YELLOW
+	}
+
+	DRIVER #1
+	{
+		driver_number 24
+		driver_name "Gerd Ruch"
+		driver_nationality "DEU"
+
+		driver_grip_race 14247
+		driver_grip_quali 14247
+		driver_random_grip_range 3267
+	}
+
+	DRIVER #2
+	{
+		driver_number 28
+		driver_name "Fabrizio Giovanardi"
+		driver_nationality "ITA"
+
+		driver_grip_race 13846
+		driver_grip_quali 13846
+		driver_random_grip_range 3738
+	}
+}
+
+TEAM #14
+{
+	team_name "Alfa Corse 2"
+	engine_name "Alfa 155 TI"
+
+	carshape_var 0
+	livery "alfacorse2dayco.jam"
+	tyre_brand 0
+
+	team_color 154 56 255
+
+	cockpit_color 199 0 0
+	mirror_color 20 20 20
+	frontwing_color 199 0 0
+
+	power_race 670
+	power_quali 670
+	fail_prob 5400
+
+	CREW
+	{
+		feet					BLACK
+		legs_pit_monitor		DARK_RED
+		waist					DARK_BLUE
+		thin_strip				DARK_RED
+		left_chest_sign			DARK_RED
+		right_chest				DARK_RED
+		epaulettes_jack			GREY
+		right_upper_arm			DARK_BLUE
+		right_forearm			DARK_BLUE
+		left_upper_arm			DARK_BLUE
+		left_forearm			DARK_BLUE
+		hands					BLACK
+		head					DARK_BLUE
+		team_logo				GREY
+	}
+
+	DRIVER #1
+	{
+		driver_number 25
+		driver_name "Stig Amthor"
+		driver_nationality "DEU"
+
+		driver_grip_race 14439
+		driver_grip_quali 14439
+		driver_random_grip_range 2883
+	}
+
+	DRIVER #2
+	{
+		driver_number 26
+		driver_name "Giancarlo Fisichella"
+		driver_nationality "ITA"
+
+		driver_grip_race 15437
+		driver_grip_quali 15437
+		driver_random_grip_range 1885
+	}
+}

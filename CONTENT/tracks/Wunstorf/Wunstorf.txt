@@ -1,0 +1,42 @@
+22.09.07                                                                                         Version 1.0
+=======================================================================
+
+Wunstorf  - Germany
+ 
+Author          : Andreas Schulz                  
+Email Address   : andreas_schulz2002@yahoo.com
+Homepage       : www.grandprix2.de
+
+Thanks to : Roberto Scandura
+
+======================================================================
+Base :Roberto Scandura's Gp3 track
+======================================================================
+
+
+* Installation *
+- STEP 1 (if you already have new tracks on the game jump to STEP 2): patch the game
+with gp2nocd that obliges the game to read the track files (the ones .dat) from the HD.
+This program will create a new directory called "circuits": you have to copy there ALL
+the 16 track files (F1ct01, F1ct02...........F1ct16).
+
+- STEP 2: copy the .dat files in the "circuits" directory and rename it as F1ct01
+  (I haven't tried it in other slots) 
+ 
+- STEP 3: Copy all the JAD files AND convert.EXE to the \gp2\gamejams\wunsjam directory 
+  and run convert.EXE once in this directory to convert all the JADs to JAMs. 
+
+- STEP 4: ENJOY!
+
+* Copyright / Permissions *
+
+If you modify this track, (for Gp2 or Gp3) the names of ALL authors must be always present!!
+
+* Disclaimer *
+
+The author is not responsible of any loss incurred on 
+your PC...the usual stuff!
+It works good on my GP2
+
+=======================================================================
+AAS 2007

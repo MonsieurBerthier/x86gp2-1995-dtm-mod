@@ -1,0 +1,53 @@
+8th August 2019
+=======================================================================
+
+Title           : Nürburgring 1984, Deutschland
+
+Filenames       : F1ct14.dat, *.jam files, gp2form.txt
+
+Author          : michael8210
+
+Email Address   : michael8210@hotmail.fr
+
+Description     : European Grandprix circuit with new layout from 1984 till 1985. (modification at Veedol in 1995)
+
+
+=======================================================================
+
+* Installation *
+
+To use the new track, you need the NOCDROM utility and GP2limit installed. Once you have installed NOCDROM, there is a
+folder created in your GP2 folder called "Circuits". In this folder there are 16 files called 
+F1CT??.dat (where ?? is a number from 01-16). These are the track data files for the 16 circuits 
+in GP2, where F1CT01 is Brazil, F1CT02 is Pacific and so on, up to F1CT16, which is Adelaide. 
+
+Now this is what you'll have to do:
+- Create a folder inside your gp2\gamejams folder called NUR8485.
+- Extract all *.jam files into this new folder. (c:\gp2\gamejams\NUR8485\1984)
+- Make a copy of the original tracks, so you don't lose them (You should have the original tracks on your GP2 CD-ROM too) 
+- Delete one of the track data files in the c:\Gp2\circuits folder (for example F1CT01)
+- Move the new track data file (F1CT12.dat) into the circuits folder.
+- Rename the new track to the same filename as the track you deleted (for example F1CT01).
+- Start GP2 and choose the track with the same number as the file you just changed. (For example track number 01 is Brazil)
+- Drive and have fun. :-)
+
+
+
+Good luck!
+
+* Disclaimer *
+
+The contained files are provided "as is" without warranty of
+any kind, either expressed or implied. The author will not be
+held responsible for any losses incurred.
+
+* Construction *
+
+Editors used    : The Track Editor by Paul Hoad, version 1.7.4
+
+Known Bugs      : None 
+                			 
+Build Time	: Plenty of hours
+
+
+=======================================================================

@@ -1,0 +1,42 @@
+Read the IMPORTANT.txt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+02.11.03                                         Version 1.0
+=======================================================================
+
+Title           : Avus - Germany
+
+Author          : Andreas Schulz                  
+Email Address   : andreas_schulz2002@yahoo.com
+Homepage        : www.grandprix2.de
+
+Description     : A imaginative old Avus track
+
+=======================================================================
+
+* Installation *
+- STEP 1 (if you already have new tracks on the game jump to STEP 2): patch the game
+with a util that obliges the game to read the track files (the ones .dat) from the HD.
+These utils are gp2nocd or trakonhd. Search for one of them on the net and install it.
+This program will create a new directory called "circuits": you have to copy there ALL
+the 16 track files (F1ct01, F1ct02...........F1ct16).
+
+- STEP 2: copy the .dat file in the "circuits" directory and rename it as F1ct01
+  or as you want. 
+
+- STEP 3: Copy all the JAD files AND convert.EXE to the \gp2\gamejams\avus\ directory 
+  and run convert.EXE once in this directory to convert all the JADs to JAMs. 
+
+- STEP 4: ENJOY!
+
+* Copyright / Permissions *
+
+If you modify this track, (for Gp2 or Gp3) the names of ALL authors must be always present!!
+
+* Disclaimer *
+
+The author is not responsible of any loss incurred on 
+your PC...the usual stuff!
+It works good on my GP2
+
+=======================================================================
+AAS 2003

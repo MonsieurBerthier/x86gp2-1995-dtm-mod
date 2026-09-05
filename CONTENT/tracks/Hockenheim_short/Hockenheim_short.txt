@@ -1,0 +1,102 @@
+ --- Short Hockenheim GP2 Track ---  
+///////////////////////////////////
+
+
+Copyright (c) 1999 Matti Laitinen. All rights reserved.
+
+Created 2nd December 1999
+
+
+
+Installation  :
+---------------
+
+1. Check whether you have a "CIRCUITS" subdirectory in your GP2-directory (HD).
+   - If you don't have it:
+     * Download and install No-CDROM, GP2NOCD or Tracks on HD utility
+     * After installing you'll have the circuits directory
+   - If you already have the directory:
+     * No changes needed
+2. Copy the SHORTHOC.DAT from the ZIP-packet to your CIRCUITS directory and rename
+   it to overwrite an  existing track, eg. F1CT01.DAT=Slot #1, etc...
+3. Create a subdirectory SHOCJAMS under the gp2\gamejams directory
+4. Copy the *.JAD files and CONVERT.EXE to GP2\GAMEJAMS\SHOCJAMS directory
+5. Go to GP2\GAMEJAMS\SHOCJAMS directory and execute CONVERT.EXE
+6. Launch GP2 and have fun
+
+
+Advanced Settings  :
+--------------------
+
+Tyre consumption
+- 15215
+
+Laps 100%
+- 116
+
+Track Length
+- 2.639 km = 1.640 mi
+
+Preferred slot
+- any slot (eg original Hockenheim slot, #9) 
+
+
+Thanks to  :
+------------
+
+James Knopp for the ad textures
+
+
+
+About the Circuit  :
+--------------------
+
+This track is the '94 version of the Short Hockenheim circuit. The track
+layout designed hasn't been changed since it.
+
+The track is mainly used in the touring car races which explains why the
+safety areas are so small.
+
+Note! This track is NOT the propositional layout for the new Hockenheim
+GP track.
+
+
+Disclaimer  :
+-------------
+
+This track package is provided "as is" with no warranties expressed or implied.
+The author will not be held responsible for any losses incurred, either
+directly or indirectly by the use of this program.
+
+This track package can be freely distributed on all kind of non-commercial media.
+Commercial distribution is not allowed without the prior agreement of the
+author. No fee may charged by the distributor other than nominal transfer
+costs. The content of the original zip-archive should not be changed in any
+way. The packet must remain as it is without dropping out any files,
+including this document. The author reserves all rights to ask the
+distributor to remove the program from distribution.
+
+No part of this product can not be used as a base of your own of product.
+
+This is *not* an Microprose product and the author has no connection with
+Geoff Crammond or Microprose.
+
+
+Author  :
+---------
+
+Matti Laitinen
+
+Email: matti@alphaf1.com
+       mattigp2@bigfoot.com
+
+Latest versions: http://www.alphaf1.com/gp2/
+                 http://zap.to/gp2
+                 http://www.gp2.com
+
+
+Have fun !!!
+
+
+Copyright (c) Matti Laitinen 1999. All rights reserved.
+

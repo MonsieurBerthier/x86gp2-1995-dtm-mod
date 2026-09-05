@@ -1,0 +1,50 @@
+Thursday 4th June 2009
+
+Title:		1995 British Touring Car Championship Carset (improved)
+Filenames:	BTCC-1995-pd.gp2 (10 different versions)
+		Blank helmet.hlt
+		1995 Touring Car.dat
+		WATN.txt
+		GP2Form-BTCC-1995-pd.txt (this file)
+Author:		pixeldreams / Dan Richards
+E-mail:		greyhead_dan@btinternet.com
+Author info:	A 29-year-old GP2 mentalist from near Sheffield.
+Description:	A carset depicting the 1995 British Touring Car Championship. Now with better grip values for more realistic, closer racing.
+Other works:	Numerous other carsets ranging from Formula One, Formula 3000 and Formula GP2 through to Champ Cars and Indy Cars
+Thanks to:	Steven Young for GP2Edit
+		David Stunnenberg for the original car shape, FK for helping me edit it and for various other things
+		Francois Terrien for the sounds
+		Chris Rimmer / Thomas Kost for parts of the cockpit
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONSTRUCTION
+
+Base:		Blank GP2Edit, base bitmap from FK's Sportscar Project, 2008 WTCC carset
+Editors used:	GP2Edit 1.85, Windows Paint, Paint.NET
+Known bugs:	The carshape has a few bugs in it, parts of the car flicker or appear black now and then
+Build time:	Around a month.
+
+INSTALLATION
+
+Open GP2Edit.
+Load the carset you want.
+Click "export to game", make sure the car number positions and camera positions are checked, then "export".
+Now open Paul Hoad's Car Editor.
+Click "load car", then find "1995 Touring Car.dat" and load it.
+Click "load helmet", then find "Blank Helmet.hlt" and load it.
+Click "export".
+Load GP2.
+* Important: make sure you export the car shape, car number positions, and camera positions! *
+
+COPYRIGHT
+
+None of that rubbish, use whatever you like, just give me credit if you do use anything of mine.
+Rob, steal and pillage as you wish.
+
+DISCLAIMER
+
+I'm not responsible for anything yadda yadda yadda...
+A carset's not likely to affect anything on your computer so I wouldn't worry too much!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
