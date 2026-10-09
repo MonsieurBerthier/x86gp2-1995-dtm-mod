@@ -128,7 +128,7 @@ Here are a few details that make this mod imperfect:
 
 3. The F1 wheels added by x86GP2 are still visible.
 
-4. The helmets shown in the driver selection menu are still the two original ones.
+4. The helmets shown in the driver selection menu are still the original ones.
 
 5. The track names in the track selection menu are based on the country names, such as `Germany` or `Europe GP`.
 
