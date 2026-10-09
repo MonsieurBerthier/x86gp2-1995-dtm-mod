@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v1.0-green.svg" />
-  <img src="https://img.shields.io/badge/Grand Prix 2-v1.0b US-blue.svg" />
+  <img src="https://img.shields.io/badge/Version-v1.1-green.svg" />
+  <img src="https://img.shields.io/badge/Grand Prix 2-v1.0b EN-blue.svg" />
   <img src="https://img.shields.io/badge/x86GP2-0.881-blue.svg" />
 </p>
 
